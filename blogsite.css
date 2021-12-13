@@ -1,0 +1,260 @@
+body {
+    background-image: url('https://images5.alphacoders.com/606/606284.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.linktoblog{
+   width: fit-content;
+   height: auto;
+    color: rgb(255, 202, 202);
+    display: flex;
+    border: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.623);
+    text-align:center;
+    margin: auto;
+
+    position: absolute;
+    top: 50%;
+    transform: translate(90%, -85%);
+    border: 5px solid #f700ff;
+    
+}
+
+
+.navbar {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(21, 14, 27);
+    border-style: inset;
+    font-size: x-large;
+    border-color: rgb(38, 240, 240);
+    /* background-image: url('https://vignette.wikia.nocookie.net/onepiece/images/5/50/Wiki-background/revision/latest?cb=20170930002910'); */
+    /* background-image: url('https://wallpaperaccess.com/full/1856727.jpg'); */
+    /* background-size: contain; */
+    background-color: rgba(0, 128, 0, 0.301);
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+#page1 {
+    display: flex;
+    size: 50px 100px 100px 50px;
+    flex-direction: column;
+    color: white;
+}
+
+#page2 {
+    display: none;
+    size: 50px 100px 100px 50px;
+    flex-direction: column;
+    color: white;
+}
+
+#theory1 {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    background-blend-mode: color;
+    background-color: rgba(232, 84, 252, 0.397);
+    margin: 1em 2em;
+}
+
+#theory4 {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-color: red;
+    border-radius: 20px;
+    background-blend-mode: color;
+    background-color: rgba(226, 223, 8, 0.479);
+    margin: 1em 2em;
+}
+
+#theory3 {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 120, 42);
+    border-radius: 20px;
+    background-blend-mode: color;
+    background-color: rgba(22, 197, 174, 0.37);
+    margin: 1em 2em;
+}
+
+#theory6 {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(255, 120, 42);
+    border-radius: 20px;
+    background-blend-mode: color;
+    background-color: rgba(22, 197, 174, 0.527);
+    margin: 1em 2em;
+}
+
+#theory2 {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(47, 0, 255);
+    border-radius: 20px;
+    background-blend-mode: color;
+    background-color: rgba(206, 143, 153, 0.582);
+    margin: 1em 2em;
+}
+
+#theory5 {
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(47, 0, 255);
+    border-radius: 20px;
+    background-blend-mode: color;
+    background-color: rgba(206, 143, 153, 0.582);
+    margin: 1em 2em;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 5px 15px;
+    /* background-color: rgba(169, 210, 216, 0.623); */
+    color: white;
+}
+
+#topic {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+.search {
+    float: right;
+}
+
+.navbar li a:hover {
+    color: red;
+}
+
+.img1 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    float: left;
+}
+
+.img2 {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 20px;
+    float: right;
+    height: 293px;
+    width: 471px;
+}
+
+img :hover {
+    opacity: 0.1;
+}
+
+b {
+    size: 10px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.pagebtn {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding: 2px;
+}
+
+#previous {
+    padding: 0px 5px;
+    margin: 5px;
+}
+
+#next {
+    margin: 5px;
+}
+
+.footer {
+    margin-top: -300px;
+    /* bottom: 0; */
+    display: flex;
+    flex-direction: row;
+    /* display: inline; */
+    background-color: black;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+.footer-widgets .widget_nav_menu li {
+    display: inline-block;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.bounty {
+    padding: 20px 85px;
+    float: right;
+}
+
+.theory_text {
+    padding: 20px 50px;
+}
+
+.logo {
+    padding: 20px 50px;
+}
+
+.login {
+    margin: 10px;
+    padding: 10px 45px;
+}
+
+.btn {
+    padding: 5px 5px;
+    border: 5px;
+}
